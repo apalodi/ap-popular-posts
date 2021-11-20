@@ -1,0 +1,177 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: AP Popular Posts\n"
+"POT-Creation-Date: 2021-03-15 23:59+0100\n"
+"PO-Revision-Date: 2018-12-05 17:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.13\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ap-popular-posts.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-admin.php:70 admin/class-admin.php:82 admin/class-admin.php:99
+msgid "AP Popular Posts Settings"
+msgstr ""
+
+#: admin/class-admin.php:70
+msgid "Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: admin/class-admin.php:83 includes/class-widget.php:25
+msgid "AP Popular Posts"
+msgstr ""
+
+#: admin/class-admin.php:187
+msgid "Query"
+msgstr ""
+
+#: admin/class-admin.php:195 admin/class-admin.php:256
+msgid "Ajax"
+msgstr ""
+
+#: admin/class-admin.php:203 admin/class-admin.php:276
+msgid "Object Cache"
+msgstr ""
+
+#: admin/class-admin.php:211
+msgid "Data Sampling (Experimental)"
+msgstr ""
+
+#: admin/class-admin.php:231
+msgid "WP Query"
+msgstr ""
+
+#: admin/class-admin.php:232
+msgid "Use WP Query to get popular posts"
+msgstr ""
+
+#: admin/class-admin.php:236
+msgid ""
+"This option is enabled automatically because you are using a multilingual "
+"plugin that needs to use WP Query to get popular posts."
+msgstr ""
+
+#: admin/class-admin.php:240
+msgid ""
+"By default we are using custom query to get popular posts that is optimized "
+"for speed. Enable this option if you have some issues with popular posts."
+msgstr ""
+
+#: admin/class-admin.php:257
+msgid "Use ajax to save posts views"
+msgstr ""
+
+#: admin/class-admin.php:258
+msgid ""
+"If you are using some cache plugin that is serving static html files you "
+"need to enable this option or your posts views won't be saved."
+msgstr ""
+
+#: admin/class-admin.php:260
+msgid "Use ajax to refresh fragments like widgets or other parts"
+msgstr ""
+
+#: admin/class-admin.php:261
+msgid ""
+"If you are using some cache plugin you might want to enable this option but "
+"it could also be unnecessary if your cache time is less than 1 hour."
+msgstr ""
+
+#: admin/class-admin.php:277
+msgid "Use object cache to save views"
+msgstr ""
+
+#: admin/class-admin.php:278
+msgid ""
+"On high traffic sites if you have some object cache solution installed you "
+"can use this option to save views in memory for 5 minutes and then transfer "
+"them to database to increase performance."
+msgstr ""
+
+#: admin/class-admin.php:280
+msgid ""
+"Please note that object cache isn't a reliable method of saving views as the "
+"cache can be cleared and the views for the last 5 minutes will be lost."
+msgstr ""
+
+#: admin/class-admin.php:294
+msgid "Enter 0 to disable"
+msgstr ""
+
+#: admin/class-admin.php:296
+msgid ""
+"On high traffic sites the constant writing to the database or object cache "
+"may have an impact on performance if your web server isn't great. A sampling "
+"rate of 80-100 is usually for high traffic sites, 40-80 for medium traffic "
+"sites and 10-40 for low traffic sites. If you don't see any performance "
+"issues make the number as low as you can. Even if you have high traffic site "
+"you can use e.g. 40 if you don't see any performance issues."
+msgstr ""
+
+#: admin/class-admin.php:298
+msgid ""
+"Using this method not every post view is saved. It picks random number "
+"between 0 and sample rate number. If it picks the correct number then the "
+"views are increased by sampling rate. On high traffic site it should give "
+"accurate post views."
+msgstr ""
+
+#: ap-popular-posts.php:208
+msgid "Last 24 hours"
+msgstr ""
+
+#: ap-popular-posts.php:209
+msgid "Last 3 days"
+msgstr ""
+
+#: ap-popular-posts.php:210
+msgid "Last 7 days"
+msgstr ""
+
+#: includes/class-widget.php:28
+msgid "Most popular Posts."
+msgstr ""
+
+#: includes/class-widget.php:48
+msgid "Popular Posts"
+msgstr ""
+
+#: includes/class-widget.php:155
+msgid "Title:"
+msgstr ""
+
+#: includes/class-widget.php:160
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/class-widget.php:165
+msgid "Interval:"
+msgstr ""
+
+#: templates/widget-content.php:28
+msgid "Currently there are no popular posts."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Popular posts plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "APALODI"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://apalodi.com"
+msgstr ""
